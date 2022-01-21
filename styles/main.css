@@ -1,0 +1,1460 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+body {
+	max-width: 1920px;
+	margin: 0 auto;
+    /* background-color: #030309; */
+}
+
+html,
+body {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+
+h1, h2 ,h3 ,h4 , h6 , p, a {
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-bottom: 0;
+}
+
+.site-logo {
+    padding-top: 93px;
+}
+
+.site-logo img {
+    width:325px;
+}
+
+
+
+.main-header-wrap h1 {
+    color: #FFFFFF;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 58px;
+    line-height: 70px;
+    max-width: 435px;
+    padding-top: 114px;
+    padding-bottom: 18px;
+    filter: drop-shadow(0px 6px 12px #dc9827);}
+
+.main-section-wrapper, .header-section, .venue-details-section, .header-details-section {
+    background-color: #030309;
+
+}
+
+.header-details-section  {
+    padding-bottom: 100px;
+}
+
+.main-header-wrap p {
+    color: #FFFFFF;
+    font-size: 24px;
+    line-height: 37px;
+    max-width: 468px;
+}
+
+.main-wrapper {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.main-wrapper img.wave-img {
+    position: absolute;
+    left: 123px;
+    top: 6px;
+}
+
+.main-banner img.fireworks {
+    width: 618px;
+    position: absolute;
+    right: 270px;
+    top: -238px;
+}
+
+.main-header-wrap {
+    z-index: 1;
+}
+
+.main-banner img.banner-2 {
+    width: 516px;
+}
+.details-wrapper {
+    min-height: 770px;
+}
+
+.details-wrapper-1 {
+    min-height: 830px;
+}
+
+.mobile-banner {
+    position: absolute;
+    top: -188px;
+    right: 0;
+    min-height: 682px;
+}
+
+.main-section-wrapper {
+    padding-top: 215px;
+}
+
+.card-wrapper-section {
+    display: flex;
+    align-items: center;
+    padding-bottom: 285px;
+    position: relative;
+}
+
+.details-wrapper img.card-1-img {
+    width: 550px;
+}
+
+.details-wrapper-1 img.card-2-img {
+    width: 585px;
+}
+
+.card-info {
+    background-color: #fff;
+    width: 825px;
+    padding: 29px 49px 47px 46px;
+
+}
+
+.card-details-wrapper_1 {
+    z-index: 1;
+}
+
+.card-details-wrapper {
+    position: absolute;
+    right: 10px;
+}
+
+.details-wrapper-1 {
+    position: absolute;
+    right: 10px;
+}
+
+
+.card-details-wrapper h2.right-title {
+    text-align: right;
+    padding-right: 50px;
+}
+
+.card_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card_body {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding-top: 14px;
+}
+
+.card_body-detail-button {
+    color: #FFFFFF;
+}
+
+.card-details-wrapper h2 {
+    color: #FFFFFF;
+    font-size: 26px;
+    line-height: 31px;
+    font-weight: 600;
+    padding-bottom: 21px;
+    padding-left: 112px;
+    text-transform: uppercase;
+}
+
+.card-details-wrapper_1 h2 {
+    color: #FFFFFF;
+    font-size: 26px;
+    line-height: 31px;
+    font-weight: 600;
+    padding-bottom: 21px;
+    padding-right: 112px;
+    text-align: right;
+    text-transform: uppercase;
+}
+
+.card_title h3 {
+        color: #030309;
+        font-size: 32px;
+        line-height: 38px;
+        font-weight: 600;
+        padding-bottom: 5px;
+}
+
+.card_title p {
+    color: #7C7C7C;
+    font-size: 16px;
+    line-height: 27px;
+}
+
+.card_header button {
+    background-color: #000000;
+    border-radius: 8px;
+    color: #FFFFFF;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    border: none;
+    font-weight: 600;
+    padding: 12px;
+}
+
+.card_body p {
+    color: #000000;
+    font-size: 19px;
+    line-height: 29px;
+    max-width: 289px;
+    padding-bottom: 21px;
+}
+
+.card_body button {
+    background-image: linear-gradient( 133.71deg  , #FF0093 0%, #FD5529 100%);
+    border-radius: 8px;
+    width: 329px;
+    height: 71px;
+    border: none;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.card_body a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+
+}
+
+
+.footer-section {
+    background-color: #111010;
+    padding-top: 70px;
+}
+
+.footer-gallary {
+    display: flex;
+    column-gap: 16px;
+}
+
+.footer-section .gallary-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 84px;
+    border-bottom:1px solid #323030;
+}
+
+.footer-gallary img {
+    width: 310px;
+}
+
+.gallary-wrapper .follow-btn {
+    border: 1px solid #DD2A7B;
+    border-radius: 8px;
+    background-color: #111010;
+    padding: 14px 12px;
+    padding: 14px 12px;
+    display: flex;
+    align-items: center;
+    column-gap: 9px;
+
+}
+
+.gallary-wrapper .follow-btn a {
+    text-decoration: none;
+    color: #DD2A7B;
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 600;
+}
+
+.copyright p {
+    color: #7C7C7C;
+    font-size: 16px;
+    line-height: 27px;
+    text-align: center;
+    padding: 25px 0;
+}
+
+.details-wrapper img {
+    box-shadow: 0 2px 34px 0 rgba(255, 255, 255, 0.4);
+
+}
+
+/*********** Details-Page ********/
+.details-inner-section {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../public/static/images/details-img1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding:27px 68px 54px 103px ;
+    margin-top: 67px;
+    background-position: center;
+    min-height: 420px;
+}
+
+.home-page {
+    display: flex;
+    align-items: center;
+    column-gap: 14px;
+}
+
+.home-page a {
+    color: #FFFFFF!important;
+    font-weight:600;
+    font-size: 30px;
+    line-height: 45px;
+    text-decoration: none;
+}
+
+.home-page a:hover {
+    cursor:pointer;
+}
+
+.home-page i {
+    color: #fff;
+    font-size: 16px;
+}
+.details-view-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.details-view-wrapper h1 {
+    color: #FFFFFF;
+    font-size: 66px;
+    line-height: 84px;
+    font-weight:600;
+    max-width: 466px;
+    filter: drop-shadow(0px 6px 12px #dc9827);
+}
+
+.booking-card {
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    max-width: 400px;
+    padding: 25px 34px 43px 37px;
+}
+
+.booking-card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.booking-card-header h2 {
+    color: #030309;
+    font-size: 22px;
+    line-height: 26px;
+    font-weight: 600;
+}
+
+.booking-card-header button {
+    background-color: #000000;
+    border-radius: 8px;
+      border: none;
+    color: #FFFFFF;
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 600;
+    padding:9px 10px;
+}
+
+.booking-card h6 {
+    color: #7C7C7C;
+    font-size: 16px;
+    line-height: 27px;
+    padding-top: 9px;
+    padding-bottom: 22px;
+}
+
+.booking-card button.book-now {
+    background-image: linear-gradient(133.71deg , #FF0093 0%, #FD5529 100%);
+    border-radius: 8px;
+    width: 100%;
+    border: none;
+    padding: 22px 0;
+    color: #FFFFFF;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 600;
+        
+}
+
+.booking-card p {
+    color: #7C7C7C;
+    font-size: 16px;
+    line-height: 27px;
+    padding-top: 22px;
+    padding-bottom: 16px;
+}
+
+.booking-card-footer {
+    display: flex;
+    align-items: center;
+    column-gap: 8px;
+    justify-content: flex-end;
+}
+
+.booking-card-footer a {
+    color: #FF0093;
+    font-size: 16px;
+    line-height: 27px;
+    text-decoration: none;
+}
+
+.booking-card-footer i {
+    color: #FF0093;
+}
+.site-logo1 {
+    padding-top: 53px;
+}
+.venue-details-wrapper {
+    display: flex;
+    justify-content: space-around;
+}
+.venue-details-wrapper h1 {
+    color: #FFFFFF;
+    font-size: 34px;
+    line-height: 41px;
+    font-weight: 600;
+    padding-bottom: 28px;
+}
+
+.venue-details-wrapper h1.question {
+    padding-top: 120px;
+}
+
+.venue-details-wrapper h1.location-heading {
+    padding-top: 40px;
+}
+
+
+
+.venue-details-wrap h1 {
+    padding-top: 32px;
+    padding-bottom: 10px;
+}
+
+.venue-details-wrapper p {
+    font-size: 24px;
+    line-height: 39px;
+    max-width: 517px;
+    color: #fff;
+}
+
+.map iframe {
+    border-radius: 8px;
+}
+
+.location-iframe {
+    min-height: 375px;
+}
+
+.venue-details-wrap {
+    display: flex;
+    max-width: 1055px;
+    margin: 0 auto;
+    column-gap: 146px;
+}
+
+.address-wrapper span {
+    color: #FFFFFF;
+    font-size: 18px;
+    line-height: 29px;
+}
+
+.address-wrapper p {
+    margin-bottom:1em;
+}
+
+.address-wrapper a {
+    text-decoration: none;
+    color: #EF9D1E;
+}
+.venue-details-section {
+    padding-bottom: 124px;
+}
+
+.social-group {
+    padding-top: 70px;
+}
+
+@media(min-width:1px) and (max-width:420px) {
+
+    .mobile-banner {
+        min-height: 440px !important;
+    }
+
+    .details-wrapper, .details-wrapper-1 {
+        min-height: 418px !important;
+    }
+
+    .card-info {
+        bottom: -258px !important;
+    }
+
+    .main-wrapper img.wave-img {
+        left: 136px !important;
+    top: 32px !important;
+    width: 168px !important;
+    }
+
+    .main-header-wrap h1 {
+        font-size: 32px !important;
+        line-height: 42px !important;
+        max-width: 230px !important;    
+    }
+
+    .card-info {
+        padding: 20px 12px !important;
+    }
+
+    .card_title h3 {
+        font-size: 22px !important;
+    }
+
+    .main-section-wrapper {
+        padding-top: 50px !important;
+    }
+
+    .site-logo img {
+        width: 200px !important;
+    }
+
+    .card-details-wrapper h2, .card-details-wrapper_1 h2 {
+        padding-top: 15px;
+        font-size: 24px !important;
+    }
+
+   
+    .card_header button {
+        padding: 12px !important;
+         font-size: 14px;
+
+    }
+
+.gallary-wrapper .follow-btn {
+    padding: 10px 10px !important;
+}
+
+.card_body button {
+    height: 52px !important;
+    font-size: 16px !important;
+    line-height: 24px !important;
+}
+
+
+.footer-gallary img {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Details-page */
+.details-inner-section {
+    padding: 25px 16px 34px 16px !important;
+    height: 225px !important;
+}
+
+.details-view-wrapper h1 {
+    font-size: 30px !important;
+    line-height: 38px !important;
+}
+.booking-card {
+    padding: 22px 18px 28px 18px !important;
+}
+
+.booking-card-header h2 {
+    font-size: 16px !important;
+    line-height: 22px !important;
+}
+
+
+.booking-card-header button {
+    font-size: 12px !important; 
+    line-height: 16px !important;
+    padding: 9px 9px !important;
+}
+
+.booking-card h6 {
+    padding-bottom: 14px !important;
+}
+
+.map iframe {
+    width: 96% !important;
+    margin: 0 auto;
+    display: block;
+}
+
+.venue-details-wrapper h1 {
+    max-width: 255px;
+    margin: 0 auto;
+}
+
+
+.booking-card p {
+    font-size: 16px !important;
+    line-height: 25px !important;
+    padding-top: 16px !important;
+    padding-bottom: 12px !important;
+}
+
+.booking-card button.book-now {
+    padding: 14px 0 !important;
+    font-size: 16px !important;
+    line-height: 20px !important;
+}
+
+.main-banner img.fireworks {
+    right: 113px !important;
+    top: -112px !important;
+}
+
+}
+
+@media (max-width: 767px) {
+
+
+.main-banner img.fireworks {
+    /* width: 100%;
+    right: 140px;
+    top: -170px; */
+    display: none;
+}
+
+.main-header-wrap p {
+    font-size: 18px !important;
+    line-height: 24px !important;
+}
+
+
+.card-details-wrapper, .details-wrapper-1 {
+    position: static;  
+}
+
+
+
+.card_header, .card_body {
+    flex-direction: column;
+}
+
+.footer-section .gallary-wrapper  {
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.footer-gallary {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    min-height: 125px;
+}
+
+
+.footer-gallary img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.card-wrapper-section {
+    flex-direction: column-reverse;
+    padding-bottom: 80px;
+}
+
+
+
+#mobile-card {
+    flex-direction: column;
+    margin-top: 300px;
+}
+
+.card-details-wrapper h2 {
+    padding-left: 0px;
+    text-align: center;
+}
+
+.card-details-wrapper_1 h2 {
+    padding-right: 0;
+    text-align: center;
+}
+
+.footer-section .gallary-wrapper {
+    padding-bottom: 35px;
+}
+
+.card_body p {
+    font-size: 16px;
+    line-height: 26px;
+    max-width: 260px;
+    padding-bottom: 16px;
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+    bottom: 62px;
+}
+
+.card_body button {
+    width: 100%;
+    height: 56px;
+    font-size: 18px;
+    line-height: 24px;
+
+}
+
+.card_header button {
+    padding: 14px;
+    position: relative;
+    top: 118px;
+
+}
+.card_title p {
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    padding-bottom: 8px;
+}
+.card_title h3 {
+    font-size: 28px;
+    line-height: 36px;
+    text-align: center;
+}
+
+.details-wrapper-1 img.card-2-img, .details-wrapper img.card-1-img {
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+}
+
+
+.card-details-wrapper_1 .card-info {
+    bottom: -240px;
+}
+.card-info {
+    width: 100%;
+    padding: 26px;
+    margin: 0 auto;
+    position: absolute;
+    bottom: -278px;
+    left: 0px;
+}
+
+.main-banner img.banner-2 {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+
+}
+
+.mobile-banner {
+    position: static;
+    margin-top: 50px;
+
+
+}
+.details-wrapper, .details-wrapper-1 {
+    width: 100%;
+    min-height: 568px;
+}
+
+.mobile-banner {
+    width: 100%;
+    min-height: 530px;
+}
+
+
+
+.main-wrapper {
+    flex-direction: column;
+}
+
+
+.site-logo {
+    padding-top: 40px;
+    text-align: center;
+}
+.main-header-wrap h1 {
+    font-size: 38px;
+    line-height: 50px;
+    max-width: 230px;
+    padding-top: 40px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+
+.main-header-wrap p {
+    font-size: 30px;
+    line-height: 40px;
+    text-align: center;
+  
+}
+
+.site-logo img {
+    width: 220px;
+}
+
+
+
+
+
+
+.main-section-wrapper {
+    padding-top: 70px;
+    padding-bottom: 290px;
+}
+
+.main-wrapper img.wave-img {
+    /* left: 206px;
+    top: 35px;
+    width: 200px; */
+    display: none;
+}
+  /* Details-page */
+
+  .venue-details-wrapper, .details-view-wrapper {
+    flex-direction: column;
+  }
+
+
+.details-inner-section {
+    padding: 27px 28px 50px 34px;
+    margin-top: 46px;
+    height: 240px;
+    min-height: 240px;
+}
+
+
+.details-view-wrapper h1 {
+
+    font-size: 32px;
+    line-height: 41px;
+    max-width: 240px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 22px 0;
+}
+
+.footer-section {
+    padding-top: 40px;
+}
+
+.booking-card button.book-now {
+    padding: 16px 0;
+    font-size: 17px;
+    line-height: 20px;
+}
+
+.venue-details-wrapper h1 {
+    font-size: 28px;
+    padding-bottom: 18px;
+    line-height: 34px;
+    max-width: 300px;
+}
+.map iframe {
+    width: 100%;
+}
+
+.social-group {
+    padding-top: 27px;
+}
+
+.venue-details-section {
+    padding-bottom: 60px;
+}
+
+.venue-details-wrapper h1.venue-title , .venue-details-wrapper h1.location-heading, .social-group {
+    padding-top: 45px;
+}
+
+.venue-details-wrapper h1.question {
+    padding-top: 50px;
+}
+
+
+.venue-details-wrapper p {
+    font-size: 16px;
+    line-height: 28px;
+    color: #fff;
+    width: 100%;
+}
+
+.venue-details-wrapper p.ticket-para {
+    padding-top: 30px;
+}
+
+.booking-card h6 {
+    padding-bottom: 18px;
+}
+
+.booking-card-footer {
+    justify-content: center;
+}
+
+
+.booking-card p {
+    text-align: center;
+}
+
+.booking-card {
+    padding: 25px 22px 33px 26px;
+    margin-top: 80px;
+}
+
+
+.home-page a {
+    font-size: 20px;
+    line-height: 32px;
+}
+
+.site-logo1 img {
+    width: 200px;
+}
+
+.map h2.venue-title {
+    padding-top: 20px;
+}
+
+.header-details-section {
+    padding-bottom: 400px;
+}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .card-details-wrapper, .details-wrapper-1 {
+        right: 0;
+    }
+
+   
+    .main-wrapper img.wave-img {
+        left: 98px;
+        top: 23px;
+        width: 252px;
+    }
+
+    
+    .site-logo img {
+        width: 200px;
+    }
+
+    .site-logo {
+        padding-top: 52px;
+    }
+
+    .main-banner img.banner-2 {
+        width: 338px;
+    }
+
+    .mobile-banner {
+        right: -29px;
+        top: -127px;
+        min-height: 447px;
+
+    }
+
+    .details-wrapper, .details-wrapper-1 {
+        min-height: 516px;
+    }
+
+    .main-header-wrap h1 {
+        font-size: 42px;
+        line-height: 52px;
+        max-width: 290px;
+        padding-top: 52px;
+        padding-bottom: 12px;
+    }
+    .main-header-wrap p {
+        font-size: 17px;
+        line-height: 27px;
+        max-width: 325px;
+    }
+
+    .footer-gallary {
+        column-gap: 12px;
+        min-height: 256px;
+    }
+
+    .footer-gallary img {
+        width: 240px;
+    }
+
+    .footer-section .gallary-wrapper {
+        flex-direction: column;
+        row-gap: 25px;
+        padding-bottom: 46px;
+    }
+
+    .footer-section {
+        padding-top: 42px;
+    }
+    .gallary-wrapper .follow-btn {
+        padding: 12px; 
+    }
+
+    .copyright p {
+        font-size: 14px;
+        line-height: 25px;
+        padding: 18px 0;
+    }
+
+
+.card-details-wrapper h2 {
+    font-size: 24px;
+    line-height: 30px;
+    padding-left: 170px;
+}
+
+.card-details-wrapper_1 h2 {
+    font-size: 24px;
+    line-height: 30px;
+    padding-right: 170px;
+}
+
+    .card-info {
+        max-width: 480px;
+        padding: 20px 19px 33px 20px;
+    }
+        
+    
+    .main-header-wrap img {
+        display: none;
+    }
+
+  
+    .card_title h3 {
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+    .card_header button {
+        font-size: 14px;
+        line-height: 17px;
+        padding: 12px;
+    }
+
+    .card_body p {
+        font-size: 18px;
+        line-height: 26px;
+        max-width: 278px;
+        padding-bottom: 16px;
+    }
+
+    .card_body button {
+        width: 290px;
+        height: 50px;
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+
+    .card-wrapper-section {
+        padding-bottom: 175px;
+    }
+
+    .details-wrapper img.card-1-img, .details-wrapper-1 img.card-2-img {
+        width: 365px;
+    }
+
+    .main-section-wrapper {
+    padding-top: 126px;
+    }
+
+    /* Details-Page */
+
+    .details-view-wrapper h1 {
+        font-size: 34px;
+        line-height: 46px;
+        max-width: 440px;
+    }
+
+.booking-card-header button {
+    font-size: 14px;
+    line-height: 18px;
+}
+
+
+.booking-card p {
+    font-size: 16px;
+    padding-top: 16px;
+    padding-bottom: 12px;
+}
+
+
+.booking-card button.book-now {
+    padding: 16px 0;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.booking-card {
+    max-width: 325px;
+    padding: 25px 24px 33px 27px;
+}
+.details-inner-section {
+    padding: 27px 30px 42px 29px;
+    margin-top: 46px;
+}
+
+
+.venue-details-wrapper p {
+    font-size: 22px;
+    line-height: 36px;
+    max-width: 332px;
+}
+
+.venue-details-wrapper h1.location-heading {
+    padding-top: 52px;
+}
+
+.social-group {
+    padding-top: 52px;
+}
+.venue-details-wrapper h1 {
+    padding-bottom: 18px;
+}
+.venue-details-wrapper h1.question {
+    padding-top: 34px;
+}
+
+.map iframe {
+    width: 300px;
+    height: 300px;
+}
+
+.location-iframe {
+    min-height: 300px;
+}
+
+.header-details-section {
+    padding-bottom: 65px;
+}
+
+.site-logo1 img {
+    width: 220px;
+}
+
+
+.home-page a {
+    font-size: 22px;
+
+}
+.main-banner img.fireworks {
+    width: 345px;
+    right: 149px;
+    top: -133px;
+}
+    
+}
+
+@media (min-width: 992px) and (max-width: 1024px) {
+    .main-banner img.fireworks {
+        width: 446px;
+        right: 193px;
+        top: -200px;
+    }
+
+.card-details-wrapper {
+    right: 0px;
+}
+
+
+.details-wrapper-1 {
+    right: 0;
+}
+
+    .footer-section .gallary-wrapper{
+        flex-direction: column;
+        row-gap: 36px;
+        padding-bottom: 42px;
+    }
+
+.main-banner img.banner-2 {
+    width: 400px;
+}
+
+.mobile-banner {
+    top: -148px;
+    min-height: 530px;
+}
+
+.details-wrapper, .details-wrapper-1 {
+   min-height: 593px;
+}
+.site-logo {
+    padding-top: 53px;
+}
+
+.card-wrapper-section {
+    padding-bottom: 225px;
+}
+
+.footer-gallary {
+    column-gap: 20px;
+    min-height: 280px;
+}
+
+
+.footer-gallary img {
+    width: 280px;
+}
+
+.main-header-wrap h1 {
+    font-size: 52px;
+    line-height: 65px;
+    max-width: 382px;
+    padding-top: 60px;
+}
+
+.main-header-wrap img {
+    display: none;
+}
+
+.main-header-wrap p {
+    max-width: 430px;
+}
+
+
+
+.card-info {
+    background-color: #fff;
+    max-width: 600px;
+    padding: 26px 38px 39px 38px;
+}
+
+
+
+.card_title h3 {
+    font-size: 26px;
+    line-height: 32px;
+    padding-bottom: 4px;
+}
+
+
+.card_body button {
+    background-image: linear-gradient( 
+133.71deg
+ , #FF0093 0%, #FD5529 100%);
+    width: 278px;
+    height: 56px;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.details-wrapper-1 img.card-2-img, .details-wrapper img.card-1-img {
+    width: 420px;
+}
+
+.main-wrapper img.wave-img {
+    left: 122px;
+    top: 17px;
+    width: 330px;
+}
+
+
+/* Details-inner-page */
+
+.details-inner-section {
+    padding: 27px 42px 54px 46px;
+    margin-top: 67px;
+}
+
+.details-view-wrapper h1 {
+    font-size: 48px;
+    line-height: 60px;
+    max-width: 390px;
+}
+
+
+.venue-details-wrapper h1 {
+    font-size: 32px;
+    line-height: 38px;
+    padding-bottom: 22px;
+}
+
+
+.booking-card {
+    padding: 25px 34px 36px 32px;
+}
+
+
+.venue-details-section {
+    padding-bottom: 95px;
+}
+
+.booking-card button.book-now {
+    padding: 18px 0;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.venue-details-wrapper p {
+    font-size: 22px;
+    line-height: 39px;
+    max-width: 420px;
+}
+
+}
+
+@media (min-width: 1025px) and (max-width: 1199px) {
+
+.main-wrapper img.wave-img {
+    left: 142px;
+    top: 17px;
+    width: 330px;
+}
+
+
+
+.card-details-wrapper h2 {
+    padding-left: 200px;
+}
+
+
+.card-details-wrapper_1 h2 {
+    padding-right: 200px;
+}
+
+    .footer-section .gallary-wrapper{
+        flex-direction: column;
+        row-gap: 36px;
+        padding-bottom: 42px;
+    }
+
+.main-banner img.banner-2 {
+    width: 450px;
+}
+
+.mobile-banner {
+    top: -148px;
+    right: -40px;
+    min-height: 595px;
+
+}
+
+.details-wrapper, .details-wrapper-1 {
+    min-height: 710px;
+}
+
+.site-logo {
+    padding-top: 53px;
+}
+
+.card-wrapper-section {
+    padding-bottom: 292px;
+}
+
+.footer-gallary {
+    column-gap: 20px;
+    min-height: 280px;
+}
+
+
+.card-details-wrapper {
+    right: -56px;
+}
+
+.footer-gallary img {
+    width: 280px;
+}
+
+.main-header-wrap h1 {
+    font-size: 52px;
+    line-height: 65px;
+    max-width: 382px;
+    padding-top: 60px;
+}
+
+.main-header-wrap img {
+    display: none;
+}
+
+.main-header-wrap p {
+    max-width: 430px;
+}
+
+.card-info {
+    max-width: 630px;
+    padding: 26px 38px 39px 38px;
+}
+
+
+.details-wrapper-1 {
+    right: -63px;
+}
+
+.card_title h3 {
+    font-size: 26px;
+    line-height: 32px;
+    padding-bottom: 4px;
+}
+
+
+.card_body button {
+    width: 278px;
+    height: 56px;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+
+.details-wrapper img.card-1-img {
+    width: 500px;
+}
+
+
+.details-wrapper-1 img.card-2-img {
+    width: 500px;
+}
+
+
+/* Details-inner-page */
+
+.details-inner-section {
+    padding: 27px 42px 54px 46px;
+    margin-top: 67px;
+}
+
+.details-view-wrapper h1 {
+    font-size: 48px;
+    line-height: 60px;
+    max-width: 390px;
+}
+
+
+.venue-details-wrapper h1 {
+    font-size: 32px;
+    line-height: 38px;
+    padding-bottom: 22px;
+}
+
+.booking-card button.book-now {
+    padding: 18px 0;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.booking-card {
+    padding: 25px 34px 36px 32px;
+}
+
+
+.venue-details-section {
+    padding-bottom: 95px;
+}
+}
+
+@media(min-width: 1200px) {
+	.container {
+        max-width: 1370px;
+	}
+}
+

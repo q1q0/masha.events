@@ -1,0 +1,47 @@
+[
+    {
+        "id": 1,
+        "path": "/russian-night-with-dj-liana",
+        "datetime": "Friday, Oct 15, 2020 | 21:00 - 03:00", 
+        "image": "card-2.jpg",
+        "header": "Featured party",
+        "title": "Russian Night with DJ Liana", 
+        "price": "€35.00 to €410.00",
+        "description": "We invite you to our luxurious party 'Russian Night' with the wonderful and amazing DJ Liana.",
+        "location": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12923.61887053633!2d14.4827954!3d35.9248322!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x40576436b0c1d0a0!2sIvy%20House%20Malta!5e0!3m2!1sen!2sin!4v1633532251884!5m2!1sen!2sin",
+        "address1": "Ivy House Malta",
+        "address2": "Triq Tunis, Pembroke, Malta",
+        "booking_link": "https://www.chitzo.com/Events/ViewEvent/whatson-pembroke-night-clubs-russian-night.42503",
+        "detail_html": "<p>We invite you to our luxurious party Russian Night with the wonderful and amazing DJ Liana.</p><p>DJ Liana is a glamorous Russian model and deejay, that played at the world’s most famous clubs and events.</p><p>Enjoy our dancers and an amazing fireshow at 23:00.</p><p>Instagram: <a href='https://instagram/@djlianaofficial'>@djlianaofficial</a>.</p><p>A vaccination certificate is required.</p>"
+    },
+    {
+        "id": 2,
+        "path": "/demo",
+        "datetime": "Saturday, Oct 16, 2020 | 22:00 - 04:00", 
+        "image": "card-2.jpg",
+        "header": "Demo party",
+        "title": "Demo Title", 
+        "price": "€5.00 to €110.00",
+        "description": "We invite you to our demo party",
+        "location": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12923.61887053633!2d14.4827954!3d35.9248322!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x40576436b0c1d0a0!2sIvy%20House%20Malta!5e0!3m2!1sen!2sin!4v1633532251884!5m2!1sen!2sin",
+        "address1": "Ivy House Malta",
+        "address2": "Triq Tunis, Pembroke, Malta",
+        "booking_link": "https://www.chitzo.com/Events/ViewEvent/whatson-pembroke-night-clubs-russian-night.42503",
+        "detail_html": "<p>We invite you to our Demo Party.</p>"
+    },
+    {
+        "id": 3,
+        "path": "/third-demo",
+        "datetime": "Saturday, Oct 16, 2020 | 22:00 - 04:00", 
+        "image": "card-2.jpg",
+        "header": "Third Demo party",
+        "title": "Third Demo Title", 
+        "price": "€50.00 to €210.00",
+        "description": "The best of Russian music, treats and of course alcohol with DJ Liana. Dancers, competitions and more! Tickets available now!",
+        "location": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12923.61887053633!2d14.4827954!3d35.9248322!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x40576436b0c1d0a0!2sIvy%20House%20Malta!5e0!3m2!1sen!2sin!4v1633532251884!5m2!1sen!2sin",
+        "address1": "Ivy House Malta",
+        "address2": "Triq Tunis, Pembroke, Malta",
+        "booking_link": "https://www.chitzo.com/Events/ViewEvent/whatson-pembroke-night-clubs-russian-night.42503",
+        "detail_html": "<p>We invite you to our the third Demo Party.</p><p>A vaccination certificate is required.</p>"
+    }
+]
